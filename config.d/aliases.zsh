@@ -2,7 +2,6 @@
 alias home="cd ~"
 alias q='exit'
 alias ..='cd ..'
-alias sucd='super_cd'
 alias ls='lsd -Fl'
 alias l='/bin/ls'
 alias ll='ls -l'
@@ -10,7 +9,13 @@ alias la='ls -a'
 alias lla='ls -la'
 alias t='tree'
 alias rm='rm -v'
+
+# Custom Shell Function Aliases
+alias sucd='super_cd'
 alias flussh='flush_dns'
+alias createjp='create_java_project'
+alias reindex='rebuild_spotlight_index'
+alias warpr='refresh_warpd'
 
 alias yrst="yabai --restart-service"
 alias ssh="TERM=xterm-256color ssh"
@@ -26,7 +31,6 @@ alias ptpy="ptpython"
 alias ipy="ipython"
 
 # Java Aliases
-alias createjp='create_java_project'
 alias jh="/usr/libexec/java_home"
 alias hstart="/opt/homebrew/Cellar/hadoop/3.3.6/sbin/start-all.sh"
 alias hstop="/opt/homebrew/Cellar/hadoop/3.3.6/sbin/stop-all.sh"
