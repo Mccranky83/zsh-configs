@@ -20,3 +20,5 @@ done
 # Unset variables
 unset dir file
 ```
+# Preview
+![image](https://github.com/Mccranky83/zsh-configs/assets/79263757/c01e3ce6-ac03-4513-9db6-be344ec7615a)
