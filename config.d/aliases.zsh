@@ -9,6 +9,13 @@ alias la='ls -a'
 alias lla='ls -la'
 alias t='tree'
 alias rm='rm -v'
+alias ssh="TERM=xterm-256color ssh"
+alias lg="lazygit"
+alias fzf="fzf --height 60% --layout reverse --info inline --border \
+    --preview 'file {}; fzf-preview.sh {}' \
+    --preview-window 'right,60%,border-left,<30(up,0%,border-bottom)' \
+    --bind 'ctrl-/:change-preview-window(90%|hidden|)' \
+    --color 'fg:#d3c6aa,fg+:#a7c080,bg:#2d353b,preview-bg:#2d353b,gutter:#2d353b,border:#859289,pointer:#e68183,prompt:#7fbbb3'"
 
 # Custom Shell Function Aliases
 alias sucd='super_cd'
@@ -16,9 +23,9 @@ alias flussh='flush_dns'
 alias createjp='create_java_project'
 alias reindex='rebuild_spotlight_index'
 alias warpr='refresh_warpd'
-
+alias pymon='nodemon -x python'
 alias yrst="yabai --restart-service"
-alias ssh="TERM=xterm-256color ssh"
+alias varedit='vared -ac -p "%B%F{cyan}%K{#2d353b}%n%f%k: "'
 
 # Vim Aliases
 alias vim='/opt/homebrew/bin/vim'
@@ -35,9 +42,11 @@ alias jh="/usr/libexec/java_home"
 alias hstart="/opt/homebrew/Cellar/hadoop/3.3.6/sbin/start-all.sh"
 alias hstop="/opt/homebrew/Cellar/hadoop/3.3.6/sbin/stop-all.sh"
 
-alias rust="/Users/Mccranky/.cargo/bin/rust-script"
-alias evr="/Users/Mccranky/.cargo/bin/evcxr"
+alias rust="$HOME/.cargo/bin/rust-script"
+alias ecr="$HOME/.cargo/bin/evcxr"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+alias deadcells="$HOME/Applications/Mac\ Games/Dead\ Cells\ Rise\ of\ the\ Giant/deadcells"
+alias powder="$HOME/Applications/Mac\ Games/powder"
 alias rda="~/.local/share/readAloud/readAloud.sh "
 
 # Git Aliases
