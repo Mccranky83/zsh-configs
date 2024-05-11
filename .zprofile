@@ -59,6 +59,9 @@ export FZF_DEFAULT_OPTS="--height 40% --layout reverse --info inline --border \
     --bind 'ctrl-/:change-preview-window(50%|hidden|)' \
     --color 'fg:#d3c6aa,fg+:#a7c080,bg:#2d353b,preview-bg:#2d353b,gutter:#2d353b,border:#859289,pointer:#e68183,prompt:#7fbbb3'"
 
+# Starship Config File Location
+export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
+
 # proxy variables
 # export ALL_PROXY=http://172.20.10.1:1082
 # export http_proxy=http://172.20.10.1:1082
