@@ -20,17 +20,9 @@ alias fzf="fzf --height 60% --layout reverse --info inline --border \
 # Custom Shell Function Aliases
 alias sucd='super_cd'
 alias flussh='flush_dns'
-alias createjp='create_java_project'
 alias reindex='rebuild_spotlight_index'
-alias warpr='refresh_warpd'
 alias pymon='nodemon -x python'
-alias yrst="yabai --restart-service"
 alias varedit='vared -ac -p "%B%F{cyan}%K{#2d353b}%n%f%k: "'
-
-# Vim Aliases
-alias vim='/opt/homebrew/bin/vim'
-alias v='nvim'
-alias nv='neovide'
 
 # Python Aliases
 alias py="python3"
@@ -39,15 +31,11 @@ alias ipy="ipython"
 
 # Java Aliases
 alias jh="/usr/libexec/java_home"
-alias hstart="/opt/homebrew/Cellar/hadoop/3.3.6/sbin/start-all.sh"
-alias hstop="/opt/homebrew/Cellar/hadoop/3.3.6/sbin/stop-all.sh"
-
 alias rust="$HOME/.cargo/bin/rust-script"
 alias ecr="$HOME/.cargo/bin/evcxr"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias deadcells="$HOME/Applications/Mac\ Games/Dead\ Cells\ Rise\ of\ the\ Giant/deadcells"
 alias powder="$HOME/Applications/Mac\ Games/powder"
-alias rda="~/.local/share/readAloud/readAloud.sh "
 
 # Git Aliases
 alias add="git add"
@@ -75,5 +63,3 @@ alias lf='lf --selection-path $HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; 
 # alias ls='ls -laGH --color=auto'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
-
-alias n="nnn"

@@ -33,13 +33,9 @@ stty -ixon
 
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.3
 
 [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && source "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
-# Generated for envman. Do not edit.
-[ -s "$XDG_CONFIG_HOME/envman/load.sh" ] && source "$XDG_CONFIG_HOME/envman/load.sh"
 
 # zoxide@stable
 eval "$(zoxide init zsh)"
@@ -55,24 +51,7 @@ bindkey -M viins 'jj' vi-cmd-mode
 # GNU dircolors config
 eval "$(gdircolors ~/.gdircolors)"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/usr/local/miniforge3/bin/conda' 'shell.zsh' 'hook' 2>/dev/null)"
-if [ $? -eq 0 ]; then
-	eval "$__conda_setup"
-else
-	if [ -f "/usr/local/miniforge3/etc/profile.d/conda.sh" ]; then
-		. "/usr/local/miniforge3/etc/profile.d/conda.sh"
-	else
-		export PATH="/usr/local/miniforge3/bin:$PATH"
-	fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 # Setting Default Editor
-# Only load conda into path but don't actually use the bloat that comes with it
-export NNN_TMPFILE="$XDG_CONFIG_HOME/nnn/.lastd"
 export EDITOR="$(which nvim)"
 export VISUAL="$(which nvim)"
 
