@@ -25,6 +25,7 @@ done
 unset dir file
 
 eval "$(starship init zsh)"
+generate_shell_indicator
 
 autoload -Uz zmv
 
