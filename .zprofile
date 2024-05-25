@@ -44,6 +44,8 @@ export FZF_DEFAULT_OPTS="--height 40% --layout reverse --info inline --border \
 # Starship Config File Location
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
+export ALIYUNPAN_CONFIG_DIR="$XDG_CONFIG_HOME/adrive/"
+
 # proxy variables
 # export ALL_PROXY=http://172.20.10.1:1082
 # export http_proxy=http://172.20.10.1:1082
