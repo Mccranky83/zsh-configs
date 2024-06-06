@@ -47,6 +47,7 @@ eval "$(zoxide init zsh)"
 # Keybinds
 bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
+bindkey -M viins 'jk' vi-cmd-mode
 # bindkey '^H' backward-delete-word
 
 # GNU dircolors config
