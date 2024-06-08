@@ -18,10 +18,7 @@ alias fzf="fzf --height 60% --layout reverse --info inline --border \
     --color 'fg:#d3c6aa,fg+:#a7c080,bg:#2d353b,preview-bg:#2d353b,gutter:#2d353b,border:#859289,pointer:#e68183,prompt:#7fbbb3'"
 
 # Custom Shell Function Aliases
-alias sucd='super_cd'
-alias flussh='flush_dns'
 alias reindex='rebuild_spotlight_index'
-alias pymon='nodemon -x python'
 alias varedit='vared -ac -p "%B%F{cyan}%K{#2d353b}%n%f%k: "'
 
 # Python Aliases
@@ -31,8 +28,6 @@ alias ipy="ipython"
 
 # Java Aliases
 alias jh="/usr/libexec/java_home"
-alias rust="$HOME/.cargo/bin/rust-script"
-alias ecr="$HOME/.cargo/bin/evcxr"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias deadcells="$HOME/Applications/Mac\ Games/Dead\ Cells\ Rise\ of\ the\ Giant/deadcells"
 alias powder="$HOME/Applications/Mac\ Games/powder"
