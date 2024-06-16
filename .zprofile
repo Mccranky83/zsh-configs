@@ -12,13 +12,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Setting PATH for Python 3.11
 # The original version is saved in .zprofile.pysave
 export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
-eval "$(/usr/local/bin/brew shellenv)"
 
 # JAVA variables
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
-eval "$(/usr/local/bin/brew shellenv)"
 
 # MacPorts Installer addition on 2023-11-11_at_20:03:10: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
