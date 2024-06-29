@@ -22,7 +22,7 @@ alias reindex='rebuild_spotlight_index'
 alias varedit='vared -ac -p "%B%F{cyan}%K{#2d353b}%n%f%k: "'
 
 # Python Aliases
-alias py="python3"
+alias py="python3.11"
 alias ptpy="ptpython"
 alias ipy="ipython"
 

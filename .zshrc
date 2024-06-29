@@ -84,6 +84,3 @@ source /opt/homebrew/opt/fzf/shell/completion.zsh
 [ -d "/opt/homebrew/share/zsh-syntax-highlighting/highlighters" ] && export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(brew --prefix)/share/zsh-syntax-highlighting/highlighters
 
 [ -d "/opt/homebrew/share/zsh-syntax-highlighting/" ] && source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)

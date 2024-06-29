@@ -22,13 +22,6 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-export PATH=$HOME/.nami/bin:$PATH
-export PATH="/Users/Mccranky/.nimble/bin:$PATH"
-
-# GO variables
-export GOPATH="$HOME/.go"
-export PATH="${GOPATH}/bin:${PATH}"
-
 # Ruby variables
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
