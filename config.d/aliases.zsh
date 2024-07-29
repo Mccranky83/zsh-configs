@@ -51,6 +51,7 @@ alias gd='git diff'
 alias gl='git log --stat --graph --decorate --oneline'
 
 alias b='bat'
+alias ff='fastfetch'
 alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias lf='lf --selection-path $HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
