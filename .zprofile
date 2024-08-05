@@ -37,6 +37,10 @@ export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
 export ALIYUNPAN_CONFIG_DIR="$XDG_CONFIG_HOME/adrive/"
 
+# Neovide Config
+export NEOVIDE_FRAMELESS=true
+export NEOVIDE_FRAME=none
+
 # proxy variables
 # export ALL_PROXY=http://172.20.10.1:1082
 # export http_proxy=http://172.20.10.1:1082
