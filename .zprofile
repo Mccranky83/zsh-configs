@@ -39,7 +39,7 @@ export ALIYUNPAN_CONFIG_DIR="$XDG_CONFIG_HOME/adrive/"
 
 # Neovide Config
 export NEOVIDE_FRAMELESS=true
-export NEOVIDE_FRAME=none
+export NEOVIDE_FRAME=buttonless
 
 # proxy variables
 # export ALL_PROXY=http://172.20.10.1:1082
