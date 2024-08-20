@@ -27,6 +27,8 @@ unset dir file
 eval "$(starship init zsh)"
 generate_shell_indicator
 
+eval $(thefuck --alias)
+
 autoload -Uz zmv
 
 # Disable XON/XOFF flow control
@@ -71,6 +73,7 @@ export RANGER_LOAD_DEFAULT_RC='false'
 
 # Disable Homebrew auto update
 export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Keybindings for FZF
 source /opt/homebrew/opt/fzf/shell/key-bindings.zsh

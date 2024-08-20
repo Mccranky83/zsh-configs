@@ -20,6 +20,8 @@ alias fzf="fzf --height 60% --layout reverse --info inline --border \
 # Custom Shell Function Aliases
 alias reindex='rebuild_spotlight_index'
 alias varedit='vared -ac -p "%B%F{cyan}%K{#2d353b}%n%f%k: "'
+alias bu='brew update'
+alias fu='brew upgrade --formulae'
 
 # Python Aliases
 alias py="python3.11"
@@ -28,7 +30,6 @@ alias ipy="ipython"
 
 # Java Aliases
 alias jh="/usr/libexec/java_home"
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias deadcells="$HOME/Applications/Mac\ Games/Dead\ Cells\ Rise\ of\ the\ Giant/deadcells"
 alias powder="$HOME/Applications/Mac\ Games/powder"
 
