@@ -87,3 +87,19 @@ source /opt/homebrew/opt/fzf/shell/completion.zsh
 [ -d "/opt/homebrew/share/zsh-syntax-highlighting/highlighters" ] && export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(brew --prefix)/share/zsh-syntax-highlighting/highlighters
 
 [ -d "/opt/homebrew/share/zsh-syntax-highlighting/" ] && source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/Mccranky/.miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/Mccranky/.miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/Users/Mccranky/.miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/Mccranky/.miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
