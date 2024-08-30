@@ -53,6 +53,8 @@ alias gc='git commit'
 alias gd='git diff'
 alias gl='git log --stat --graph --decorate --oneline'
 
+alias ghc='gh repo create "${$(pwd):t}" --source=. --public --remote=upstream'
+
 alias b='bat'
 alias ff='fastfetch'
 alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
