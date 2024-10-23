@@ -41,9 +41,6 @@ export ALIYUNPAN_CONFIG_DIR="$XDG_CONFIG_HOME/adrive/"
 export NEOVIDE_FRAMELESS=true
 export NEOVIDE_FRAME=buttonless
 
-# Docker variables
-export DOCKER_HOST=unix://$XDG_CONFIG_HOME/colima/default/docker.sock
-
 # proxy variables
 # export ALL_PROXY=http://172.20.10.1:1082
 # export http_proxy=http://172.20.10.1:1082

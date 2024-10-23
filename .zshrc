@@ -88,6 +88,8 @@ source /opt/homebrew/opt/fzf/shell/completion.zsh
 
 [ -d "/opt/homebrew/share/zsh-syntax-highlighting/" ] && source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+source /opt/homebrew/share/zsh-system-clipboard/zsh-system-clipboard.zsh
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/Mccranky/.miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
