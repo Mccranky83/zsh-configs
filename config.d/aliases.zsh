@@ -24,11 +24,10 @@ alias bu='brew update'
 alias fu='brew upgrade --formulae'
 
 # Python Aliases
-alias py="python3.11"
 alias ptpy="ptpython"
 alias ipy="ipython"
-alias conda-update='conda update --force-reinstall conda -y'
 alias play="python3 $HOME/.local/share/scripts/play-with-mpv/play_with_mpv.py"
+alias snake="nsnake"
 
 # Java Aliases
 alias jh="/usr/libexec/java_home"
