@@ -24,8 +24,11 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 # Ruby variables
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib -L/opt/homebrew/opt/ffmpeg@6/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include -I/opt/homebrew/opt/ffmpeg@6/include"
+
+# RAR variables
+export RAR="-s -md1024"
 
 # fzf options
 export FZF_DEFAULT_OPTS="--height 40% --layout reverse --info inline --border \
@@ -36,10 +39,6 @@ export FZF_DEFAULT_OPTS="--height 40% --layout reverse --info inline --border \
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 
 export ALIYUNPAN_CONFIG_DIR="$XDG_CONFIG_HOME/adrive/"
-
-# Neovide Config
-export NEOVIDE_FRAMELESS=true
-export NEOVIDE_FRAME=buttonless
 
 # proxy variables
 # export ALL_PROXY=http://172.20.10.1:1082

@@ -17,22 +17,26 @@ alias fzf="fzf --height 60% --layout reverse --info inline --border \
     --bind 'ctrl-/:change-preview-window(90%|hidden|)' \
     --color 'fg:#d3c6aa,fg+:#a7c080,bg:#2d353b,preview-bg:#2d353b,gutter:#2d353b,border:#859289,pointer:#e68183,prompt:#7fbbb3'"
 
-# Custom Shell Function Aliases
+# Custom Aliases
 alias reindex='rebuild_spotlight_index'
 alias varedit='vared -ac -p "%B%F{cyan}%K{#2d353b}%n%f%k: "'
 alias bu='brew update'
 alias fu='brew upgrade --formulae'
+alias pd="sudo find . -type f -name .DS_Store -delete &>/dev/null 2>&1"
 
 # Python Aliases
 alias ptpy="ptpython"
 alias ipy="ipython"
 alias play="python3 $HOME/.local/share/scripts/play-with-mpv/play_with_mpv.py"
+
+# Quick Launch Aliases
 alias snake="nsnake"
+alias chess="chess-tui -e `which stockfish`"
+alias deadcells="$HOME/Applications/Mac\ Games/Dead\ Cells\ Rise\ of\ the\ Giant/deadcells"
+alias powder="$HOME/Applications/Mac\ Games/powder"
 
 # Java Aliases
 alias jh="/usr/libexec/java_home"
-alias deadcells="$HOME/Applications/Mac\ Games/Dead\ Cells\ Rise\ of\ the\ Giant/deadcells"
-alias powder="$HOME/Applications/Mac\ Games/powder"
 
 # Git Aliases
 alias add="git add"
